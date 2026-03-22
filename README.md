@@ -12,19 +12,19 @@ The **Amazon Clone** is a demonstration web application designed to mimic the us
 - **Design:** Clean, structured layout inspired by Amazon’s interface  
 - **Focus:** Beginner‑friendly, showcasing core e‑commerce concepts
 ### signin Popup
-![Signin Screenshot](screenshots/signin.png)
+![signin Screenshot](screenshots/signin.png)
 
 ### logo 
-![Logo Screenshot](screenshots/logo.png)
+![logo Screenshot](screenshots/logo.png)
 
 ### Home Page
 ![home Screenshot](screenshots/home.png)
 
 ### search item
-![Search Screenshot](screenshots/search.png)
+![search Screenshot](screenshots/search.png)
 
 ### Bottom Page
-![Bottom Screenshot](screenshots/bottom.png)
+![bottom Screenshot](screenshots/bottom.png)
 
 
 
