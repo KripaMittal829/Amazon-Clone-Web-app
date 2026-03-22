@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Clone</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="navbar">
+
+  <div class="logo-text">amazon<span>.in</span></div>
+
+  <div class="nav-search">
+    <select class="search-select">
+      <option>All</option>
+    </select>
+    <input id="searchInput" class="search-input" placeholder="Search Amazon">
+    <div class="search-icon" onclick="searchProduct()">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+  </div>
+
+  <div class="nav-signin" onclick="openRegister()">
+    <span>Hello, Sign in</span>
+    <p class="nav-second">Account & Lists</p>
+  </div>
+
+  <div class="nav-cart">
+    <i class="fa-solid fa-cart-shopping"></i> Cart
+  </div>
+
+</header>
+
+<!-- ===== HERO ===== -->
+<div class="hero-section">
+  <div class="hero-msg">
+    You are on Amazon.com. Shop on Amazon India for millions of products.
+  </div>
+</div>
+
+<!-- ===== PRODUCTS ===== -->
+<div class="shop-sec" id="productList">
+
+  <div class="box">
+    <h2>Mobiles</h2>
+    <img src="https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_UY218_.jpg">
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Laptops</h2>
+    <img src="https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UY218_.jpg">
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Fashion</h2>
+    <img src="https://m.media-amazon.com/images/I/81fPKd-2AYL._AC_UL320_.jpg">
+    <p>See more</p>
+  </div>
+
+  <div class="box">
+    <h2>Home Appliances</h2>
+    <img src="https://m.media-amazon.com/images/I/71g2ednj0JL._AC_UL320_.jpg">
+    <p>See more</p>
+  </div>
+
+</div>
+
+</div>
+
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+
+  <div class="footer-top">Back to top</div>
+
+  <div class="footer-links">
+    <div>
+      <h4>Get to Know Us</h4>
+      <p>About Amazon</p>
+      <p>Careers</p>
+    </div>
+
+    <div>
+      <h4>Connect with Us</h4>
+      <p>Facebook</p>
+      <p>Twitter</p>
+    </div>
+
+    <div>
+      <h4>Make Money with Us</h4>
+      <p>Sell on Amazon</p>
+      <p>Affiliate</p>
+    </div>
+
+    <div>
+      <h4>Let Us Help You</h4>
+      <p>Your Account</p>
+      <p>Help</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    Conditions of Use & Sale | Privacy Notice | Interest-Based Ads <br>
+    © 1996–2025, Amazon Clone (Educational Project)
+  </div>
+
+</footer>
+<!-- ===== FOOTER ===== -->
+<footer>
+
+  <div class="foot-panel2">
+    <ul>      <a>COVID-19 and Amazon</a>
+      <a>Your Account</a>
+      <a>Returns Centre</a>
+      <a>100% Purchase Protection</a>
+      <a>Amazon App Download</a>
+      <a>Help</a>
+    </ul>
+  </div>
+
+  <div class="foot-panel3">
+    <div class="logo-text">amazon<span>.in</span></div>
+  </div>
+
+  <div class="foot-panel4">
+    <div class="pages">
+      <a>Conditions of Use</a>
+      <a>Privacy Notice</a>
+      <a>Your Ads Privacy Choices</a>
+    </div>
+  </div>
+  </footer>
+<!-- ===== USER REGISTRATION ===== -->
+<div class="register-container" id="registerBox">
+
+  <div class="register-box">
+    <span class="close-btn" onclick="closeRegister()">✕</span>
+    <p class="seller-text">amazon seller central <span>india</span></p>
+
+    <h2>Create Account</h2>
+
+    <label>Your name</label>
+    <input type="text" placeholder="First and last name">
+
+    <label>Mobile number</label>
+    <div class="mobile-box">
+      <span>+91</span>
+      <input type="tel" placeholder="Mobile number">
+    </div>
+
+    <label>Email (optional)</label>
+    <input type="email" placeholder="Email">
+
+    <label>Password</label>
+    <input type="password" placeholder="At least 6 characters">
+    <p class="small-text">Passwords must be at least 6 characters.</p>
+
+    <button class="continue-btn">Continue</button>
+
+    <p class="info-text">
+      We will send you a text to verify your phone.
+      Message and Data rates may apply.
+    </p>
+
+    <p class="signin-link">
+      Already have an account? <a href="#">Sign in</a>
+    </p>
+  </div></div>
+  <script src="script.js"></script>
+</body>
+</html>
